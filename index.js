@@ -6,6 +6,8 @@ fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&que
     })
 
     .catch(err => {
-        document.body.style.backgroundImage = `url(https://images.unsplash.com/photo-1444930694458-01babf71870c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNDI0NzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MzQzNTJ8&ixlib=rb-4.0.3&q=80&w=1080)`
+        document.body.style.backgroundImage = `url(https://images.unsplash.com/photo-1490772888775-55fceea286b8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxNDI0NzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4NDE0MDR8&ixlib=rb-4.0.3&q=85)`
+
+        document.getElementById("author").textContent = `By: Marivi Pazos`
     })
     
