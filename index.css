@@ -19,16 +19,19 @@ main {
     justify-content: space-between;
 }
 
+/* Styling for Top Elements */
 div.top {
     display: flex;
     justify-content: space-between;
 }
 
+/* Styling for Time Element */
 h1.time {
     text-align: center;
     font-size: 5rem;
 }
 
+/* Styling for Crypocurrency Section */
 div#crypto {
     font-size: 1.3rem;
 }
@@ -47,6 +50,7 @@ div#crypto-top > span {
     margin-left: 10px;
 }
 
+/* Styling for Weather Section */
 div#weather {
     display: flex;
     align-items: center;
@@ -74,6 +78,7 @@ p.weather-temp {
     margin-left: -5px;
 }
 
+/* Styling for Author Element */
 p#author {
     font-size: 1rem;
 }
